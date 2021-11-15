@@ -15,7 +15,7 @@ body {
 }
 
 section , header, footer {
-  widt: 80%;
+  width: : 80%;
   max-width: 700px;
   margin: auto;
 }
@@ -24,4 +24,9 @@ section , header, footer {
 
 h1, h2, blockquote {
   color: #760071;
+}
+
+p, blockquote {
+  margin-bottom: 1.5rem;
+  line-height: 1.4
 }
