@@ -6,3 +6,16 @@
   font-weight: normal;
   line-height: 1em;
 }
+
+/*-- Main structural styling--*/
+
+body {
+     background: #f7f7f7;
+     colour: #333333
+}
+
+section , header, footer {
+  widt: 80%
+  max-width: 700px
+  margin: auto; 
+}
