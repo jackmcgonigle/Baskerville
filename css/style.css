@@ -44,8 +44,14 @@ h2 {
 }
 
 blockquote {
-  font-size: 1.414rem
+  font-size: 1.414rem;
   font-style: italic;
   hanging-punctuation: first;
   text-indent: 0.75rem
+}
+
+cite {
+  font-size: 0.8em;
+  color: #333333
+  font-style: normal;
 }
