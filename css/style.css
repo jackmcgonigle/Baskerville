@@ -34,8 +34,9 @@ p, blockquote {
 }
 
 
-h1{font-size: 5.653rem;
-  mrgin-top: 2em;
+h1 {
+  font-size: 5.653rem;
+  margin-top: 2em;
 }
 
 h2 {
@@ -69,7 +70,7 @@ header p {
 
 /*-- styling links --*/
 a {
-  color:760071;
+  color: #760071;
   text-decoration: none
 }
 
@@ -84,7 +85,7 @@ nav {
   left: 0;
   margin: 0;
   width: 100%;
-  background-color: #4f014c;
+  background: #fff2b0;
   padding: 2em 0;
   font-size: 0.75rem;
 }
@@ -101,7 +102,7 @@ nav ul li {
 }
 
 nav a {
-  color: f7f7f7;
+  color: #f7f7f7;
 }
 
 nav a:hover {
@@ -120,6 +121,6 @@ hr {
 
 footer {
   text-align: center;
-  font-size: 0.75rem
+  font-size: 0.75rem;
   margin:6em 0 3em 0
 }
