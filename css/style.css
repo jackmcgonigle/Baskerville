@@ -47,11 +47,50 @@ blockquote {
   font-size: 1.414rem;
   font-style: italic;
   hanging-punctuation: first;
-  text-indent: 0.75rem
+  text-indent: 0.75rem;
 }
 
 cite {
   font-size: 0.8em;
-  color: #333333
+  color: #333333;
   font-style: normal;
 }
+
+/*-- styling links --*/
+a {
+  color:760071;
+  text-decoration: none;
+}
+
+a:hover {
+  color: cadetblue;
+  border-bottom: 2px dotted;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%
+  background: #4f014c;
+  padding: 2em 0;
+  font-size: 0.75rem;
+}
+
+nav ul {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 20px;
+}
+
+nav a {
+  color: f7f7f7;
+}
+
+nav a:hover
