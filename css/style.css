@@ -15,8 +15,8 @@ body {
 }
 
 section , header, footer {
-  widt: 80%
-  max-width: 700px
+  widt: 80%;
+  max-width: 700px;
   margin: auto;
 }
 
