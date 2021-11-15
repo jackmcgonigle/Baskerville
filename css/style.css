@@ -47,7 +47,7 @@ blockquote {
   font-size: 1.414rem;
   font-style: italic;
   hanging-punctuation: first;
-  text-indent: 0.75rem;
+  text-indent: -0.75rem;
 }
 
 cite {
@@ -56,24 +56,35 @@ cite {
   font-style: normal;
 }
 
+header h2 {
+  font-size: 2.827rem;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+header p {
+  font-size: 1.3rem
+}
+
 /*-- styling links --*/
 a {
   color:760071;
-  text-decoration: none;
+  text-decoration: none
 }
 
 a:hover {
-  color: cadetblue;
+  color: limegreen;
   border-bottom: 2px dotted;
 }
 
-nav{
+nav {
   position: fixed;
   top: 0;
   left: 0;
   margin: 0;
-  width: 100%
-  background: #4f014c;
+  width: 100%;
+  background-color: #4f014c;
   padding: 2em 0;
   font-size: 0.75rem;
 }
@@ -93,4 +104,22 @@ nav a {
   color: f7f7f7;
 }
 
-nav a:hover
+nav a:hover {
+  border-bottom: none;
+  color: #fc8ebf;
+  transition: all 0.3s ease-in-out
+}
+
+hr {
+  margin: 100px 0;
+  height: 1px;
+  background-color: #4f014c;
+  color: #4f014c;
+  border: 0 none;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.75rem
+  margin:6em 0 3em 0
+}
