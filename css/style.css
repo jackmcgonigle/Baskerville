@@ -23,7 +23,7 @@ section , header, footer {
 /*-- Styling typography --*/
 
 h1, h2, blockquote {
-  color: #760071;
+  color: #1F908B;
   font-family: fantasy;
   font-family: Baskerville;
 }
@@ -70,12 +70,12 @@ header p {
 
 /*-- styling links --*/
 a {
-  color: #760071;
+  color: #2F4858;
   text-decoration: none
 }
 
 a:hover {
-  color: limegreen;
+  color: #fc8ebf;
   border-bottom: 2px dotted;
 }
 
@@ -102,7 +102,7 @@ nav ul li {
 }
 
 nav a {
-  color: #f7f7f7;
+  color: #333333;
 }
 
 nav a:hover {
