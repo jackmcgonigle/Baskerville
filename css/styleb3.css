@@ -70,7 +70,7 @@ header p {
 
 /*-- styling links --*/
 a {
-  color: #2F4858;
+  color: #f7f7f7;
   text-decoration: none
 }
 
@@ -122,5 +122,15 @@ hr {
 footer {
   text-align: center;
   font-size: 0.75rem;
-  margin:6em 0 3em 0
+  margin:6em 0 3em 0;
+  color: #f7f7f7;
 }
+
+/*--below is for the darker panels and above is for the lighter ones--*/
+  .dark {background: #fff2b0;
+    padding: 3em 0;
+  }
+
+  .light {background: #2F4858;
+    padding: 3em 0;
+  }
