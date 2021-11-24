@@ -7,6 +7,10 @@
   line-height: 1em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*-- Main structural styling--*/
 
 body {
@@ -37,6 +41,11 @@ p, blockquote {
   line-height: 1.4;
 }
 
+.dark p
+{
+  color: #f7f7f7
+}
+
 
 h1 {
   font-size: 5.653rem;
@@ -46,6 +55,22 @@ h1 {
 h2 {
   font-size:1.999rem;
   margin:3em 0 1em 0;
+}
+
+
+.dark h2 {
+  color: #EBEBE0
+}
+
+header h2 {
+  font-size: 2.827rem;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+header p {
+  font-size: 1.3rem
 }
 
 blockquote {
@@ -61,27 +86,28 @@ cite {
   font-style: normal;
 }
 
-header h2 {
-  font-size: 2.827rem;
-  font-style: italic;
-  margin-top: 0;
-  margin-bottom: 1.5em;
-}
-
-header p {
-  font-size: 1.3rem
-}
-
 /*-- styling links --*/
 a {
   color: #f7f7f7;
-  text-decoration: none
+  text-decoration: none;
 }
 
 a:hover {
   color: #fc8ebf;
   border-bottom: 2px dotted;
 }
+
+/*----boxes for links---*/
+a:link, a:visited {
+  background-color: #2F6C7A;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px;
+}
+
 
 nav {
   position: fixed;
@@ -117,16 +143,6 @@ nav a:hover {
   transition: all 0.3s ease-in-out
 }
 
-hr {
-  margin: 100px 0;
-  height: 1px;
-  background-color: #4f014c;
-  color: #4f014c;
-  border: 0 none;
-}
-
-
-
 
 footer {
   text-align: center;
@@ -135,7 +151,7 @@ footer {
   color: #f7f7f7;
 }
 
-/*--below is for the darker panels and above is for the lighter ones--*/
+/*--colored panels--*/
   .light {background: #fff2b0;
     padding: 3em 0;
   }
@@ -144,17 +160,12 @@ footer {
     padding: 3em 0;
   }
 
-  .dark h2
-  {color: #EBEBE0}
 
-  .dark p
-  {color: #f7f7f7}
-
-
-  img{
+  img {
     display: block;
     margin: 4em 0;
     padding: 0;
     max-width: 100%;
     margin-left: 25.5rem;
+    border-radius: 10px;
   }
