@@ -14,27 +14,49 @@ html {
 /*-- Main structural styling--*/
 
 body {
-     background: #f7f7f7;
+     background: #2F4858;
      color: #333333;
      font-family: mr-eaves-modern, sans-serif;
      font-weight: 300;
      font-style: normal;
 }
 
+.intro {
+ color: #f7f7f7;
+}
 
+
+.topcheif {
+  color: #f7f7f7;
+  margin-top: 2em;
+  font-size:  6.9rem;
+  text-align: center;
+
+}
+
+.topcheif h2 {
+  color: #f7f7f7;
+  opacity: 50%;
+}
 
 section, header, footer {
   width: : 80%;
   max-width: 700px;
   margin: auto;
+  margin-bottom: 4em;
 }
 
 .gridimage {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  grid-gap: 10px
+  grid-gap: 10px;
+
 }
 
+.book {
+  margin-top: -7.5em;
+  margin-bottom: -7.5em;
+}
 /*-- Styling typography --*/
 
 h1, h2, blockquote {
@@ -94,6 +116,10 @@ cite {
   font-style: normal;
 }
 
+hr {
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
 /*-- styling links --*/
 a {
   color: #f7f7f7;
