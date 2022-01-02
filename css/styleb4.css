@@ -106,15 +106,6 @@ a:hover {
 }
 
 /*----boxes for links---*/
-a:link, a:visited {
-  background-color: #2F6C7A;
-  color: white;
-  padding: 8px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 20px;
-}
 
 
 nav {
@@ -123,9 +114,10 @@ nav {
   left: 0;
   margin: 0;
   width: 100%;
-  background: #fff2b0;
+  background: #000000;
   padding: 2em 0;
   font-size: 0.75rem;
+  opacity: 50%;
 }
 
 
@@ -142,7 +134,7 @@ nav ul li {
 }
 
 nav a {
-  color: #333333;
+  color: #f7f7f7;
 }
 
 nav a:hover {
